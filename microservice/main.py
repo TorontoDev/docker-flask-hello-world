@@ -7,7 +7,7 @@ api = Api(app)
 
 class HelloWorld(Resource):
     def get(self):
-        return {'hello': 'world'}
+        return {'hello': 'world my url is http://127.0.0.1:5055/'}
 
 class MyHelloWorld(Resource):
     def get(self):
